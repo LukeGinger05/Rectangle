@@ -15,6 +15,19 @@ namespace Rectangle
         public Form1()
         {
             InitializeComponent();
+
+            
+        }
+
+        private void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            double width = double.Parse(textBox1.Text);
+            double height = double.Parse(textBox2.Text);
         }
     }
 }
